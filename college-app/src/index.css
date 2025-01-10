@@ -29,6 +29,9 @@ a {
 }
 
 .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     background-color: #fff;
     color: #212121;
     padding: 10px 25px;
@@ -38,3 +41,26 @@ a {
     cursor: pointer;
     outline: 0;
 }
+
+.btn img {
+    width: 20px;
+    margin-left: 10px;
+    
+}
+
+.active {
+    
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.active::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 40%;
+    border-bottom: 2px solid #fff;
+  }
