@@ -4,8 +4,16 @@ import {assets} from '../../assets/asstes'
 
 const Navbar = () => {
   return (
-    <div>
-      <img src={assets.logo} alt="" />
+    <div className='navbar container'>
+      <img className='logo' src={assets.logo} alt="" />
+      <ul>
+        <li>Home</li>
+        <li>Program</li>
+        <li>About us</li>
+        <li>Campus</li>
+        <li>Testimonials</li>
+        <li><button className='btn'>Contact us</button></li>
+      </ul>
     </div>
   )
 }

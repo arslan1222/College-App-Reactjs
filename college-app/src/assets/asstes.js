@@ -16,7 +16,7 @@ import gallery2 from './gallery-2.png'
 import gallery3 from './gallery-3.png'
 import gallery4 from './gallery-4.png'
 
-import black_icon from './black-icon.png'
+import back_icon from './back-icon.png'
 import dark_arrow from './dark-arrow.png'
 
 import logo from './logo.png'
@@ -35,6 +35,6 @@ export const assets = {
     program_icon1, program_icon2, program_icon3,
     user1, user2, user3, user4,
     gallery1, gallery2, gallery3, gallery4,
-    black_icon, dark_arrow,
+    back_icon, dark_arrow,
     about, hero, mail_icon, play_icon, msg_icon, menu_icon, phone_icon, next_icon
 }
