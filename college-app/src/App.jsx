@@ -6,6 +6,7 @@ import Title from './Conponents/Title/Title'
 import About from './Conponents/About/About'
 import Capmus from './Conponents/Campus/Capmus'
 import Testimonials from './Conponents/Testimonials/Testimonials'
+import Contact from './Conponents/Contact/Contact'
 
 const App = () => {
   return (
@@ -20,6 +21,8 @@ const App = () => {
         <Capmus />
         <Title subtitle='TESTIMONIALS' title='What Students Says' />
         <Testimonials />
+        <Title subtitle='CONTACT US' title='Get In Touch' />
+        <Contact />
       </div>
       
     </div>
