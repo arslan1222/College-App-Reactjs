@@ -26,3 +26,60 @@
     background-color: #212EA0;
     transition: 0.5s;
 }
+
+.menu-icon {
+    display: none;
+}
+
+@media(max-width: 1000px) {
+    .logo {
+        width: 140px;
+    }
+    .navbar ul li {
+        margin: 10px 15px;
+    }
+}
+
+@media(max-width: 970px) {
+
+    .navbar {
+        padding: 15px 0;
+    }
+
+    .navbar ul {
+        position: fixed;
+        background-color: #212EA0;
+        z-index: -1;
+        width: 200px;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        padding-top: 70px;       
+    }
+
+    .navbar ul li {
+        display: block;
+        margin: 25px 40px;
+    }
+
+    .menu-icon {
+        display: block;
+        width: 30px;
+        cursor: pointer;
+        margin-right: 25px;
+    }
+
+    .mobile-menu {
+        display: none;
+    }
+      
+    .mobile-menu.show-menu {
+        display: block;
+    }
+      
+    .mobile-menu.hide-menu {
+        display: none;
+      }
+}
+
+
