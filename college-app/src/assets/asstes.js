@@ -28,6 +28,7 @@ import msg_icon from './msg-icon.png'
 import menu_icon from './menu-icon.png'
 import phone_icon from './phone-icon.png'
 import next_icon from './next-icon.png'
+import white_arrow from './white-arrow.png'
 
 export const assets = {
     logo,
@@ -36,5 +37,5 @@ export const assets = {
     user1, user2, user3, user4,
     gallery1, gallery2, gallery3, gallery4,
     back_icon, dark_arrow,
-    about, hero, mail_icon, play_icon, msg_icon, menu_icon, phone_icon, next_icon
+    about, hero, mail_icon, play_icon, msg_icon, menu_icon, phone_icon, next_icon, white_arrow
 }
