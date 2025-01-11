@@ -3,6 +3,7 @@ import Navbar from './Conponents/Navbar/Navbar'
 import Hero from './Conponents/Hero/Hero'
 import Programs from './Conponents/Programs/Programs'
 import Title from './Conponents/Title/Title'
+import About from './Conponents/About/About'
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <div className="container">
         <Title subtitle='Our PROGRAM' title='What We Offer' />
         <Programs />
+        <About />
       </div>
       
     </div>
