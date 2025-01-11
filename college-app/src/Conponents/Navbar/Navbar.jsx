@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import './Navbar.css'
 import {assets} from '../../assets/asstes'
-import { NavLink } from 'react-router-dom'
+import { Link } from 'react-scroll'
 
 const Navbar = () => {
 
@@ -17,12 +17,12 @@ const Navbar = () => {
     <div className={`navbar container ${sticky ? 'dark-nav' : ''}`}>
       <img className='logo' src={assets.logo} alt="" />
       <ul>
-        <NavLink to='/'><li>Home</li></NavLink>
-        <NavLink to='/program'><li>Program</li></NavLink>
-        <NavLink to='/about'><li>About us</li></NavLink>
-        <NavLink to='/campus'><li>Campus</li></NavLink>
-        <NavLink to='/testimonials'><li>Testimonials</li></NavLink>
-        <NavLink to='/cantact'><li><button className='btn'>Contact us</button></li></NavLink>
+        <Link to='hero' smooth={true} offset={0} duration={400}><li>Home</li></Link>
+        <li><Link to='program' smooth={true} offset={-260} duration={400}>Program</Link></li>
+        <li><Link to='about' smooth={true} offset={-150} duration={400}>About us</Link></li>
+        <li><Link to='campus' smooth={true} offset={-260} duration={400}>Campus</Link></li>
+        <li><Link to='testimonials' smooth={true} offset={-260} duration={400}>Testimonials</Link></li>
+        <li><Link to='contact' smooth={true} offset={-260} duration={400} className='btn'>Contact us</Link></li>
       </ul>
     </div>
   )
