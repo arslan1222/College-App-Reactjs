@@ -21,7 +21,7 @@ import dark_arrow from './dark-arrow.png'
 
 import logo from './logo.png'
 import about from './about.png'
-import hero from './hero.png'
+import hero from './hero1.jpg'
 import mail_icon from './mail-icon.png'
 import play_icon from './play-icon.png'
 import msg_icon from './msg-icon.png'

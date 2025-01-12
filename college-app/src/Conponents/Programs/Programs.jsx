@@ -1,10 +1,17 @@
 import React from "react";
 import "./Programs.css";
 import { assets } from "../../assets/asstes";
+import { motion } from "motion/react";
 
 const Programs = () => {
   return (
-    <div className="programs">
+    <motion.div
+      initial={{ opacity: 0, x: -200 }}
+      transition={{ duration: 1 }}
+      whileInView={{ opacity: 1, x: 0 }}
+      viewport={{ once: true }}
+      className="programs"
+    >
       <div className="program">
         <img src={assets.program1} alt="" />
         <div className="caption">
@@ -26,7 +33,7 @@ const Programs = () => {
           <p>Post Gradution</p>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

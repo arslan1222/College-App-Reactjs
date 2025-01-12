@@ -19,9 +19,7 @@ const Footer = () => {
         <div className="footer-content-left">
           <img className="footer-logo" src={assets.logo} alt="" />
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam iure
-            illum rem necessitatibus vel architecto, id delectus iste
-            asperiores! Amet!
+            Empowering students with exceptional education and resources to build a brighter future. We aim to inspire innovation and nurture leadership.
           </p>
           <div className="footer-social-icons">
             <a className="social-icon"

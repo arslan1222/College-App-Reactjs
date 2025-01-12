@@ -1,6 +1,7 @@
 import React from 'react'
 import './Contact.css'
 import { assets } from '../../assets/asstes'
+import { motion } from "motion/react"
 
 const Contact = () => {
 
@@ -31,10 +32,17 @@ const Contact = () => {
   };
 
   return (
-    <div className='contact'>
+    <motion.div
+    initial={{ opacity: 0, y: 100 }}
+    transition={{ duration: 1.5 }}
+    whileInView={{ opacity: 1, y: 0 }}
+    viewport={{ once: true }}
+     className='contact'>
       <div className="contact-col">
         <h3>Send us a message <img src={assets.msg_icon} alt="" /></h3>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum inventore blanditiis repellat optio omnis accusamus accusantium provident in nesciunt suscipit.</p>
+        <p>
+          Have any questions or need assistance? Feel free to reach out to us, and we'll get back to you as soon as possible. We're here to help and answer any inquiries you may have.
+        </p>
         <ul>
             <li><img src={assets.mail_icon} alt="" />arslanhaiderchand88@gmail.com</li>
             <li><img src={assets.phone_icon} alt="" />(+92) 321-7077-229</li>
@@ -54,7 +62,7 @@ const Contact = () => {
         <span>{result}</span>
       </div>
 
-    </div>
+    </motion.div>
   )
 }
 
