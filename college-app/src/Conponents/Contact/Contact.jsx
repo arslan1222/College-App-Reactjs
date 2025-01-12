@@ -36,7 +36,7 @@ const Contact = () => {
         <h3>Send us a message <img src={assets.msg_icon} alt="" /></h3>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum inventore blanditiis repellat optio omnis accusamus accusantium provident in nesciunt suscipit.</p>
         <ul>
-            <li><img src={assets.mail_icon} alt="" />arslanhaiderchand88@gmail.com img</li>
+            <li><img src={assets.mail_icon} alt="" />arslanhaiderchand88@gmail.com</li>
             <li><img src={assets.phone_icon} alt="" />(+92) 321-7077-229</li>
             <li><img src={assets.location_icon} alt="" />Baker Street, suite 335 <br /> Sialkot, Pakistan</li>
         </ul>

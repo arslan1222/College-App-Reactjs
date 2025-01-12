@@ -32,8 +32,12 @@
 }
 
 @media(max-width: 1000px) {
+    .navbar {
+        padding-inline: 20px;
+    }
     .logo {
         width: 140px;
+        padding-left: 20px;
     }
     .navbar ul li {
         margin: 10px 15px;
